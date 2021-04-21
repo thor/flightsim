@@ -1,8 +1,0 @@
-{
-    "homepage": "https://flightsim.to/file/1572/msfs-addons-linker",
-    "description": "Manages addons for Microsoft Flight Simulator",
-    "version": "0.9.7763.27934",
-    "checkver": {
-        "regex": "Current Version (\\w.*) by"
-    }
-}
