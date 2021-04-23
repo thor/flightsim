@@ -1,0 +1,15 @@
+{
+  "homepage": "https://vatspy.rosscarlson.dev",
+  "description": "VAT-Spy",
+  "innosetup": true,
+  "version": "1.3.3",
+  "url": "https://vatspy.rosscarlson.dev/download.php?file=VATSpy-Setup-1.3.3.exe",
+  "hash": "87fabbd4c62346df743ef89967ba6c67349ab3bbe258a86c6d8109a592341d3b",
+  "shortcuts": [["vatspy.exe", "VAT-Spy"]],
+  "checkver": {
+    "regex": "Current Version: (\\w.*) -"
+  },
+  "autoupdate": {
+    "url": "https://vatspy.rosscarlson.dev/download.php?file=VATSpy-Setup-$version.exe"
+  }
+}
