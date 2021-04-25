@@ -8,9 +8,8 @@
   "checkver": {
     "regex": "Current Version: (\\w.*) -"
   },
-  "persist": [
-	  "VATSpyConfig.xml"
-  ],
+  "post_install": ["Move-Item \"$dir/`$APPDATA/*\" $env:APPDATA"],
+  "persist": ["VATSpyConfig.xml"],
   "autoupdate": {
     "url": "https://vatspy.rosscarlson.dev/download.php?file=VATSpy-Setup-$version.exe"
   }
