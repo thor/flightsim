@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/till213/SkyDolly",
     "description": "Flight recording utility for Microsoft Flight Simulator 2020 (and others)",
-    "version": "0.7.0",
-    "url": "https://github.com/till213/SkyDolly/releases/download/v0.7.0/SkyDolly-v0.7.0.zip",
-    "hash": "9c90e8d1885f08118254e4bd06355c06b0e980069573d5147a23e5f7cdec1a82",
-    "extract_dir": "SkyDolly-v0.7.0",
+    "version": "0.8.3",
+    "url": "https://github.com/till213/SkyDolly/releases/download/v0.8.3/SkyDolly-v0.8.3.zip",
+    "hash": "a36fd4702d7deb02549a826299e6e18f2ccf75618b170fdfc6be3eac0c9b7be1",
+    "extract_dir": "SkyDolly-v0.8.3",
     "shortcuts": [
         [
             "SkyDolly.exe",
