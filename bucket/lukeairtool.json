@@ -1,0 +1,15 @@
+{
+  "homepage": "https://flightsim.to/file/652/lukeairtool",
+  "description": "Passenger simulation & pushback assist with METAR & charts",
+  "version": "2.1.1.2",
+  "url": "https://alpha.flightsim.to/uploads/0015/airtool_latest_5O3PA.zip",
+  "hash": "28e77cb29378cead8340900c80271d1b05f480333a1f3981b9d1360b308e8891",
+  "shortcuts": [["AirTool.exe", "LukeAirTool"]],
+  "persist": [
+	  "Airliners",
+	  "PaxSim"
+  ],
+  "checkver": {
+    "regex": ">Version<\\/th>\n?<td>([^\\s]*)<\\/td>"
+  }
+}
