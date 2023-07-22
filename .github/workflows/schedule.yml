@@ -1,17 +1,18 @@
 on:
+  workflow_dispatch:
   schedule:
-  - cron: '0 * * * *'
+    - cron: '*/30 * * * *'
+
 name: Excavator
 jobs:
   excavate:
-    name: Excavate
+    name: Excavator
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@main
-    - name: Excavate
-      uses: Ash258/Scoop-GithubActions@stable-win
+    - name: Excavator
+      uses: ScoopInstaller/GithubActions@main
       env:
-        GITH_EMAIL: thor@roht.no
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SCOOP_BRANCH: 'NEW'
         SKIP_UPDATED: '1'
+        THROW_ERROR: '0'
