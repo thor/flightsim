@@ -3,7 +3,7 @@
   "description": "EFB Software for your simulator",
   "version": "1.1.25",
   "url": "https://simtoolkitpro.co.uk/download/get/win#/dl.7z",
-  "hash": "006fce248228df9de317f3f407443a2f3b5ddcb2285e9d000f8bc17450e542ed",
+  "hash": "1c3be9a20b31cb2d6811c6c4e33c996e40734e76652d8fff2627af513eb431bb",
   "shortcuts": [["SimToolkitPro.exe", "SimToolkitPro"]],
   "pre_install": ["pushd $dir", "ls", "pwd", "7z x simtoolkitpro-$version-full.nupkg", "popd"],
   "post_install": [],
