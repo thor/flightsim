@@ -1,16 +1,21 @@
 {
-  "homepage": "https://vatspy.rosscarlson.dev",
-  "description": "VAT-Spy",
-  "version": "1.3.3",
-  "url": "https://vatspy.rosscarlson.dev/download.php?file=VATSpy-Setup-1.3.3.exe#/dl.7z",
-  "hash": "87fabbd4c62346df743ef89967ba6c67349ab3bbe258a86c6d8109a592341d3b",
-  "shortcuts": [["VATSpy.exe", "VATSpy"]],
-  "checkver": {
-    "regex": "Current Version: (\\w.*) -"
-  },
-  "post_install": ["Move-Item \"$dir/`$APPDATA/*\" $env:APPDATA"],
-  "persist": ["VATSpyConfig.xml"],
-  "autoupdate": {
-    "url": "https://vatspy.rosscarlson.dev/download.php?file=VATSpy-Setup-$version.exe"
-  }
+    "homepage": "https://vatspy.rosscarlson.dev",
+    "description": "VAT-Spy",
+    "version": "1.3.4",
+    "url": "https://vatspy.rosscarlson.dev/download.php?file=VATSpy-Setup-1.3.4.exe",
+    "hash": "fd74437dd1c2b28b4e05d1fd010f9b4fd8b02d4cb772e5dc31093419a4e3319c",
+    "shortcuts": [
+        [
+            "VATSpy.exe",
+            "VATSpy"
+        ]
+    ],
+    "checkver": {
+        "regex": "Current Version: (\\w.*) -"
+    },
+    "post_install": "Move-Item \"$dir/`$APPDATA/*\" $env:APPDATA",
+    "persist": "VATSpyConfig.xml",
+    "autoupdate": {
+        "url": "https://vatspy.rosscarlson.dev/download.php?file=VATSpy-Setup-$version.exe"
+    }
 }
