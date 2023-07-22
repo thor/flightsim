@@ -1,0 +1,14 @@
+{
+    "homepage": "https://github.com/albar965/littlenavmap",
+    "description": "Standalone Audio for VATSIM for use with Euroscope and other ATC clients",
+    "version": "2.6.16",
+    "url": "https://audio.vatsim.net/assets/files/audio-for-vatsim-ef3b59061de56082ba0eb194e9a452d2.msi",
+    "hash": "7231e1ee6801392fdff8aeb4894d9a68f0f175fad73eec5102354d596183cb23",
+    "shortcuts": [
+        [
+            "AudioForVATSIM.exe",
+            "Audio for VATSIM"
+        ]
+    ],
+    "persist": [ ]
+}
