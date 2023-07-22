@@ -10,6 +10,6 @@
 	  "PaxSim"
   ],
   "checkver": {
-    "regex": ">Version<\\/th>\n?<td>([^\\s]*)<\\/td>"
+    "regex": "<span[ \\w\"=-]*?>([^\\s]*) - Updated .+? ago<\\/span>"
   }
 }
