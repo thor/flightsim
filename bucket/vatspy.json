@@ -1,9 +1,9 @@
 {
     "homepage": "https://vatspy.rosscarlson.dev",
     "description": "VAT-Spy",
-    "version": "1.4.0",
-    "url": "https://vatspy.rosscarlson.dev/download.php?file=VATSpy-Setup-1.4.0.exe",
-    "hash": "cc49c372a79242b25e63039d8bc0bbd877079a4e20844905cc0aa5a6bfe26cc0",
+    "version": "1.4.1",
+    "url": "https://vatspy.rosscarlson.dev/download.php?file=VATSpy-Setup-1.4.1.exe",
+    "hash": "33b3f03e2ba0756fa23259e66e38dea2a1e6439d1c96c667febf2badea73b057",
     "shortcuts": [
         [
             "VATSpy.exe",
