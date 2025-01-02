@@ -1,17 +1,17 @@
 {
     "homepage": "https://github.com/albar965/littlenavmap",
     "description": "Flight planner, navigation tool, moving map, airport search and airport information system for Flight Simulator X, Microsoft Flight Simulator 2020, Prepar3D and X-Plane",
-    "version": "3.0.9",
+    "version": "3.0.12",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/albar965/littlenavmap/releases/download/v3.0.9/LittleNavmap-win64-3.0.9.zip",
-            "hash": "6a0f8ee79a440403d85cec0b1844daf83fcf0f0b51a8606843d99a486c420a5c",
-            "extract_dir": "LittleNavmap-win64-3.0.9"
+            "url": "https://github.com/albar965/littlenavmap/releases/download/v3.0.12/LittleNavmap-win64-3.0.12.zip",
+            "hash": "c0d8b0110423ce45b0ab52781618ace507498978b0edf0a46e1713cca6743885",
+            "extract_dir": "LittleNavmap-win64-3.0.12"
         },
         "32bit": {
-            "url": "https://github.com/albar965/littlenavmap/releases/download/v3.0.9/LittleNavmap-win32-3.0.9.zip",
-            "hash": "43823fbe25fdea202894bd7d2b19149ee5ca0912fdf57971c9625a2b99b6298f",
-            "extract_dir": "LittleNavmap-win32-3.0.9"
+            "url": "https://github.com/albar965/littlenavmap/releases/download/v3.0.12/LittleNavmap-win32-3.0.12.zip",
+            "hash": "76bf1ad5bbe792fa2797cf90c058536b1eeb3cbc00238cc50047203d696fe2c7",
+            "extract_dir": "LittleNavmap-win32-3.0.12"
         }
     },
     "shortcuts": [
