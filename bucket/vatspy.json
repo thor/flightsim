@@ -2,7 +2,7 @@
     "homepage": "https://vatspy.rosscarlson.dev",
     "description": "VAT-Spy",
     "version": "1.4.2",
-    "url": "https://vatspy.rosscarlson.dev/download.php?file=VATSpy-Setup-1.4.2.exe",
+    "url": "https://vatspy.rosscarlson.dev/download.php?file=VATSpy-Setup-1.4.2.exe#/dl.7z",
     "hash": "5fb1331eda75ffd119857d07b5a6fca2b4034fa0ac104c654dea106fad2d1d1a",
     "shortcuts": [
         [
@@ -14,6 +14,15 @@
         "regex": "Current Version: (\\w.*) -"
     },
     "post_install": "Move-Item -Force -Exclude \"*.exe\" \"$dir/`$APPDATA/VAT-Spy/*\" $env:APPDATA/VAT-Spy",
+        "Move-Item -Destination \"$env:APPDATA/VAT-Spy\" $(Join-Path $dir '$APPDATA/VAT-Spy/*') -Exclude '*.xml' -Force",
+        "Remove-Item -Force -Recurse $(Join-Path $dir '$APPDATA')",
+        "if ((Test-Path $env:APPDATA/VAT-Spy/VATSpyConfig.xml) -and -not (Get-Item $env:APPDATA/VAT-Spy/VATSpyConfig.xml -ErrorAction SilentlyContinue).LinkType) {",
+        "  Move-Item $env:APPDATA/VAT-Spy/VATSpyConfig.xml $dir",
+        "}",
+        "if (-not (Get-Item $env:APPDATA/VAT-Spy/VATSpyConfig.xml -ErrorAction SilentlyContinue).LinkType) {",
+        "  New-Item -ItemType SymbolicLink -Path \"$env:APPDATA/VAT-Spy/VATSpyConfig.xml\" -Target \"$dir/VATSpyConfig.xml\"",
+        "}"
+    ],
     "persist": "VATSpyConfig.xml",
     "autoupdate": {
         "url": "https://vatspy.rosscarlson.dev/download.php?file=VATSpy-Setup-$version.exe"
