@@ -13,7 +13,8 @@
     "checkver": {
         "regex": "Current Version: (\\w.*) -"
     },
-    "post_install": "Move-Item -Force -Exclude \"*.exe\" \"$dir/`$APPDATA/VAT-Spy/*\" $env:APPDATA/VAT-Spy",
+    "post_install": [
+	"Move-Item -Force -Exclude \"*.exe\" \"$dir/`$APPDATA/VAT-Spy/*\" $env:APPDATA/VAT-Spy",
         "Move-Item -Destination \"$env:APPDATA/VAT-Spy\" $(Join-Path $dir '$APPDATA/VAT-Spy/*') -Exclude '*.xml' -Force",
         "Remove-Item -Force -Recurse $(Join-Path $dir '$APPDATA')",
         "if ((Test-Path $env:APPDATA/VAT-Spy/VATSpyConfig.xml) -and -not (Get-Item $env:APPDATA/VAT-Spy/VATSpyConfig.xml -ErrorAction SilentlyContinue).LinkType) {",
