@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/meltinglava/ENOR_Vatsim_Runway_selector",
+    "description": "Utility to aid with configuring runways in EuroScope",
+    "version": "0.0.1-alpha.30",
+    "url": "https://github.com/meltinglava/ENOR_Vatsim_Runway_selector/releases/download/v0.0.1-alpha.30/ENOR_Vatsim_Runway_Selector-windows-msvc.zip",
+    "hash": "912789578f6c3b7e2681ef19db52f28dc42e0fd1b7c4a542b5ed7dcd82e86f95",
+    "shortcuts": [
+        [
+            "es_runway_selector.exe",
+            "ENOR Runway Selector & Launcher"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/meltinglava/ENOR_Vatsim_Runway_selector/releases/download/v$version/ENOR_Vatsim_Runway_Selector-windows-msvc.zip"
+    }
+}
