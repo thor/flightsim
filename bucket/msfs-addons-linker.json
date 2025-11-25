@@ -1,9 +1,9 @@
 {
     "homepage": "https://flightsim.to/file/1572/msfs-addons-linker",
     "description": "Manages addons for Microsoft Flight Simulator",
-    "version": "0.28.9241.25",
-    "url": "https://cdn.alpha.flightsim.to/0026/MSFS_Addons_Linker_v28_nFepx.zip",
-    "hash": "86ffe8b80714d5e1fbb37d8512dd3bd9648c845df386608fc0199ec941e7ca9e",
+    "version": "0.30.9345.20",
+    "url": "https://cdn.alpha.flightsim.to/0026/MSFS_Addons_Linker_v30_674wt.zip",
+    "hash": "d181ff42939a62c1aab196c4fbd7fb7d906b1cf834f86aceaf2af229f5aa418e",
     "shortcuts": [
         [
             "MSFS_AddonsLinker.exe",
